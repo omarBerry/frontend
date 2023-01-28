@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta view="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" type="imagen/x" alter="365 logo" href="Imagenes/365_logo.ico">
+    <title>Usuarios</title>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo"><img src="Imagenes\365_logo.jpg" alter="365logo" title="logo 365" width="50px">
+                <h1>Escuela Jean Piaget</h1>
+            </div>
+        </div>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="servicio.html">Servicios</a>
+            <a href="inscripcion.html">Inscripciones</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="#">Acceso Usuarios</a>
+        </nav>
+        <nav class="acceso">
+            <a href="consultaInscripcion.html">Consulta Inscripciones</a>
+            <a href="#cerrarSesion ">Cerrar Sesión</a>
+        </nav>
+        <h2>Bienvendos todos nuestos usuarios</h2>
+    </header>
+    <p>Por favor puedes ingresar los datos acceso que fueron proporcionados por correo electrónico</p><br>
+    <form name ="formulario" method="POST" action="usuario.php">
+        <label for="usuario">Usuario:</label>
+        <input type="text" name="usuario"><br>
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="password"><br>
+        <input type="submit" VALUE="Aceptar">
+        <input type="button" VALUE="Cancelar">
+    </form>
+</body>
+<footer>
+    <p>Omar Berriel Derechos "PW1"</p>
+</footer>
+
+</html>
